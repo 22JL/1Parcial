@@ -38,13 +38,11 @@ namespace _1Parcial
                 String ValidarPosNeg = PositivoNegativo(numero);
                 MessageBox.Show($"El número es " + ValidarPar + " y es " + ValidarPosNeg);
             }
-
             
         }
         private String ParImpar(decimal num1)
         {
-            String ParIm= "";           
-
+            String ParIm= "";
             
             if (num1 % 2 == 0)
             {
